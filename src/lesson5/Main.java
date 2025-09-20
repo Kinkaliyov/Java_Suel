@@ -5,8 +5,10 @@ public class Main {
         int theNumber = 100;
         if(theNumber % 2 == 0) {
             System.out.println("Число четное");
-        } else {
+        } else if(theNumber % 2 > 0) {
             System.out.println("Число нечетное");
+        } else {
+            System.out.println("Ошибка: Число не делится. Равняется нулю.");
         }
     }
 }

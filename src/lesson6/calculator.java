@@ -20,7 +20,7 @@ public class calculator {
                 break;
             }
             case '/': {
-                if (firstNum == 0 || secondNum == 0) {
+                if (secondNum == 0) {
                     System.out.println("Деление на ноль невозможно");
                 } else {
                     System.out.println(firstNum / secondNum);

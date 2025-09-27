@@ -53,10 +53,10 @@ public class Main {
                 System.out.println("Хорошо");
                 break;
             case 3:
-                System.out.println("Удовлетворительно");
+                System.out.println("Нормально");
                 break;
             case 2:
-                System.out.println("Неудовлетворительно");
+                System.out.println("Ужасно");
                 break;
             default:
                 System.out.println("Неверная оценка");

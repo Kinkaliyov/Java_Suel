@@ -12,9 +12,9 @@ public class Shortcuts {
     public static void performOperators(int a, int b) {
         System.out.println("--- Задание 2: Операторы (" + a + " и " + b + ") ---");
         System.out.println("Сумма: " + (a + b));
-        if (b == 0) {System.err.println("Ошибка: Деление на ноль!"); return;}
-        System.out.println("Разность: " + (a - b));
         System.out.println("Произведение: " + (a * b));
+        System.out.println("Разность: " + (a - b));
+        if (b == 0) {System.err.println("Ошибка: Деление на ноль!"); return;}
         System.out.println("Частное: " + (a / b));
     }
 

@@ -5,7 +5,7 @@ public class Main {
 
         Shortcuts.printCycles();
 
-        Shortcuts.performOperators(20, 5);
+        Shortcuts.performOperators(20, 0);
 
         Shortcuts.printAddNumbersResult(15, 7);
 

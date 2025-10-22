@@ -3,11 +3,11 @@ package lesson12.FourthHomeWork;
 public class Main {
     public static void main(String[] args) {
 
-        Ride[] attractions = new Ride[];
+        Ride[] attractions = new Ride[3];
 
-        attractions.[0] = new RollerCoaster("Кобра");
-        attractions.[1] = new FerrisWheel("Солнце");
-        attractions.[2] = new HauntedHouse("Скрипучий особняк");
+        attractions[0] = new RollerCoaster("Кобра");
+        attractions[1] = new FerrisWheel("Солнце");
+        attractions[2] = new HauntedHouse("Скрипучий особняк");
 
         System.out.println("--- Парк Аттракционов ОТКРЫТ ---");
 

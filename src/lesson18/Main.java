@@ -43,6 +43,8 @@ public class Main {
 
             if (input < 0) {
                 throw new IllegalArgumentException("Обнаружено недопустимое число: " + input);
+            } else if (input> 0 || input == 0) {
+                throw new IllegalArgumentException("Обнаружено недопустимое число: " + input);
             }
 
             System.out.println("Введено корректное число: " + input);

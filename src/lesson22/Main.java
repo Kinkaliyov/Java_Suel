@@ -88,5 +88,11 @@ public class Main {
         System.out.println("Дробное значение: " + multipliedDouble);
         System.out.println("Целое значение: " + finalInt);
         System.out.println("------------------------------------");
+
+        char beta = 2;
+        byte alpha = (byte) beta;
+        System.out.println(alpha);
+
+
     }
 }

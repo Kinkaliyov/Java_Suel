@@ -7,12 +7,12 @@ public class Main {
     public static void main(String[] args) {
 
         List<String> cities = new ArrayList<>();
-        cities.add("Москва");
-        cities.add("Санкт-Петербург");
-        cities.add("Казань");
-        cities.add("Сочи");
-        cities.add("Новосибирск");
-        cities.add("Екатеринбург");
+        cities.add("Баку");
+        cities.add("Гянджа");
+        cities.add("Барда");
+        cities.add("Мярдякан");
+        cities.add("Карабах");
+        cities.add("Шеки");
 
         System.out.println("--- ДЗ 1: Удаление ---");
         System.out.println("Исходный список: " + cities);
@@ -35,7 +35,7 @@ public class Main {
         names.add("Мага");
         names.add("Джасур");
         names.add("Мага");
-        names.add("Суэльь");
+        names.add("Суэль");
 
         String searchName = "Джасур";
 
